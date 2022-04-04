@@ -3,7 +3,6 @@ html {
 }
 body {
     margin: 0;
-    display: grid;
     grid-template-columns: min-content 1fr;
     font-family: system-ui, sans-serif;
     
@@ -29,6 +28,24 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.section-container {
+
+    display: flex;
+       
+    justify-content: center;
+
+}
+
+.section-box {
+
+    border: #37474F;
+    border-style: dashed;
+    margin: 2em;
+    width: 20%;
+
+}
+
 /* Only stick if you can fit */
 @media (min-height: 300px) {
     .directory ul {
