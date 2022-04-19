@@ -25,14 +25,18 @@
       </nav>
 
     <main>
+        <div className="tab-button-container">
+            <button title="HTML" onClick="onTabClick('html')">HTML</button>
+            <button title="CSS" onClick="onTabClick('css')">CSS</button>
+            <button title="JavaScript" onClick="onTabClick('js')">JavaScript</button>
+        </div>
         <div class="code-area">
             <textarea id="htmlCode" placeholder="HTML" oninput="showPreview()"></textarea>
-            <textarea id="cssCode" placeholder="CSS" oninput="showPreview()"></textarea>
-            <textarea id="jsCode" placeholder="JavaScript" oninput="showPreview()"></textarea>
+            <textarea hidden id="cssCode" placeholder="CSS" oninput="showPreview()"></textarea>
+            <textarea hidden id="jsCode" placeholder="JavaScript" oninput="showPreview()"></textarea>
         </div>
         <div class="preview-area">
             <iframe id="preview-window"></iframe>
-
         </div>
     </main>
 </body>
