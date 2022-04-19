@@ -1,3 +1,21 @@
+
+function onTabClick(editorName) {
+    if (editorName == "html") {
+        document.getElementById("htmlCode").hidden = false
+        document.getElementById("cssCode").hidden = true
+        document.getElementById("jsCode").hidden = true
+    } else if (editorName == "css") {
+        document.getElementById("htmlCode").hidden = true
+        document.getElementById("cssCode").hidden = false
+        document.getElementById("jsCode").hidden = true
+    } else {
+        document.getElementById("htmlCode").hidden = true
+        document.getElementById("cssCode").hidden = true
+        document.getElementById("jsCode").hidden = false
+    }
+    
+}
+
 function showPreview() {
     let htmlCode = document.getElementById("htmlCode").value
     let cssCode = "<style>" + document.getElementById("cssCode").value + "</style>"
