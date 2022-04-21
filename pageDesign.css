@@ -37,6 +37,66 @@ body {
 
 }
 
+.container {
+    padding: 1rem;
+    display: flex;
+    
+
+}
+
+.margin {
+
+    
+
+}
+
+.container-space-around {
+
+    justify-content: space-around;
+
+}
+
+.container-column {
+
+    flex-direction: column;
+
+}
+
+.container-row {
+
+    flex-direction: row;
+
+}
+
+.fill {
+
+    width: 100%;
+
+}
+
+.text-container {
+
+    width: 60%;
+    background-color: #455A64;
+    color: white;
+    padding: 1rem;
+
+}
+
+.border {
+
+    border: solid;
+    border-color: black;
+
+}
+
+.border-bottom {
+
+    border-bottom: solid;
+    border-color: black;
+
+}
+
 
 
 
