@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="frontPageDesign.css">
+    <link rel="stylesheet" href="pageDesign.css">
     <link rel="stylesheet" href="codeDesign.css">
     <script src="codeScript.js"></script>
     <title>Front page</title>
@@ -22,21 +22,35 @@
             <a href="about-us-page.html" class="w3-bar-item w3-button w3-mobile w3-right">About us</a>
             <a href="" class="w3-bar-item w3-button w3-mobile w3-right">Login/Sign up</a>
         </div>
-      </nav>
+    </nav>
 
-    <main>
-        <div className="tab-button-container">
-            <button title="HTML" onClick="onTabClick('html')">HTML</button>
-            <button title="CSS" onClick="onTabClick('css')">CSS</button>
-            <button title="JavaScript" onClick="onTabClick('js')">JavaScript</button>
-        </div>
-        <div class="code-area">
-            <textarea id="htmlCode" placeholder="HTML" oninput="showPreview()"></textarea>
-            <textarea hidden id="cssCode" placeholder="CSS" oninput="showPreview()"></textarea>
-            <textarea hidden id="jsCode" placeholder="JavaScript" oninput="showPreview()"></textarea>
-        </div>
-        <div class="preview-area">
-            <iframe id="preview-window"></iframe>
+    <main class="fill">
+        <div class="container fill">
+            <div class="text-container">
+                <h1>
+                    Opgavebeskrivelse
+                </h1>
+                <b>
+                    "Text"
+                </b>
+            </div>
+            <div class="container-fill-out fill">
+                <div>
+                    <div className="tab-button-container">
+                        <button title="HTML" onClick="onTabClick('html')">HTML</button>
+                        <button title="CSS" onClick="onTabClick('css')">CSS</button>
+                        <button title="JavaScript" onClick="onTabClick('js')">JavaScript</button>
+                    </div>
+                    <div class="code-area">
+                        <textarea id="htmlCode" placeholder="HTML" oninput="showPreview()"></textarea>
+                        <textarea hidden id="cssCode" placeholder="CSS" oninput="showPreview()"></textarea>
+                        <textarea hidden id="jsCode" placeholder="JavaScript" oninput="showPreview()"></textarea>
+                    </div>
+                </div>
+                <div class="preview-area">
+                    <iframe id="preview-window"></iframe>
+                </div>
+            </div>
         </div>
     </main>
 </body>
