@@ -7,19 +7,23 @@ body {
 
 .code-area {
     display: flex;
-    flex-direction:column;
-    border-right: 1px solid #555;
+    height: 95.5%;
 }
 .code-area textarea {
     resize: none;
     outline: none;
     width: 100%;
     font-size: 18px;
-    padding: 10px;
 }
 .container-fill-out {
     display: flex;
     flex-flow: column;
+
+}
+
+.preview-area {
+
+    width: 100%;
 
 }
 
