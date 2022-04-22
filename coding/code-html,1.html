@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../frontPageDesign.css">
+    <link rel="stylesheet" href="../codeDesign.css">
+    <link rel="stylesheet" href="plugin/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="plugin/codemirror/theme/dracula.css">
+    <link rel="stylesheet" href="plugin/codemirror/addon/hint/show-hint.css">
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="plugin/codemirror/lib/codemirror.js"></script>
+    <script src="js/default.js"></script>
+    <script src="plugin/codemirror/addon/edit/closetag.js"></script>
+    <script src="plugin/codemirror/mode/xml/xml.js"></script>
+    <script src="plugin/codemirror/addon/edit/closebrackets.js"></script>
+    <script src="plugin/codemirror/addon/hint/show-hint.js"></script>
+    <script src="plugin/codemirror/addon/hint/html-hint.js"></script>
+
+    <title>Front page</title>
+</head>
+<body>
+    <nav>
+        <div class="w3-bar w3-black placement">
+            <a href="../front-page.html" class="w3-bar-item w3-button w3-mobile">Logo</a>
+            <a href="../front-page.html" class="w3-bar-item w3-button w3-mobile">Name</a>
+            <a href="../dashboard.html" class="w3-bar-item w3-button w3-mobile w3-right">Dashboard</a>
+            <a href="../catalog.html" class="w3-bar-item w3-button w3-mobile w3-right">Catalog</a>
+            <a href="../forum.html" class="w3-bar-item w3-button w3-mobile w3-right">Forum</a>
+            <a href="../docs-page.html" class="w3-bar-item w3-button w3-mobile w3-right">Docs</a>
+            <a href="../challenges.html" class="w3-bar-item w3-button w3-mobile w3-right">Challenges</a>
+            <a href="../about-us-page.html" class="w3-bar-item w3-button w3-mobile w3-right">About us</a>
+            <a href="" class="w3-bar-item w3-button w3-mobile w3-right">Login/Sign up</a>
+        </div>
+      </nav>
+
+    <main>
+        <div id="" style="overflow-y:scroll">
+            <h2>Welcome</h2>
+            <p>Here you will learn how to write your first code and run it, to see it working</p>
+            <p>Your first code in html will be "Hello World!"</p>
+            <P>Try and write it using h1 tags</P>
+            <div id="first-condition" style="border: 1px solid">
+                <div>
+                    <div hidden style="background-color: green; width: 15px; height: 15px" id="check-box"></div>
+                </div>
+                <div>
+                   <p>write "Hello World!" using h1 tags</p> 
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <textarea class="editor"></textarea>
+            </div>
+            <div>
+                <iframe id="terminal" src="" frameborder="0"></iframe>
+                <button onclick="check()">CHECK</button>
+            </div> 
+        </div>
+    </main>
+</body>
+</html>
