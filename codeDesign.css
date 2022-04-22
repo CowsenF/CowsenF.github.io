@@ -6,8 +6,9 @@ body {
 }
 
 .code-area {
-    display: flex;
-    height: 95.5%;
+
+    height: 70%;
+
 }
 .code-area textarea {
     resize: none;
@@ -26,4 +27,26 @@ body {
     width: 100%;
 
 }
+
+.container {
+
+    display: flex;
+
+}
+
+.container-row {
+
+    flex-direction: row;
+
+}
+
+.fill {
+
+    height: 94%;
+    width: 100%;
+
+}
+
+
+
 

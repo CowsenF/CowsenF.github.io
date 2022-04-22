@@ -23,6 +23,6 @@ function check() {
 function clear(clearCondition) {
     if (clearCondition == "<h1>Hello World!</h1>") {
         document.getElementById("check-box").hidden = false
-        document.getElementById("first-condition").style = "border: 1px solid; background-color: grey"
+        document.getElementById("first-condition").style = "background-color: green; border-bottom: solid; border-top: solid;"
     }
 }

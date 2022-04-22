@@ -37,28 +37,30 @@
       </nav>
 
     <main>
-        <div id="" style="overflow-y:scroll">
-            <h2>Welcome</h2>
-            <p>Here you will learn how to write your first code and run it, to see it working</p>
-            <p>Your first code in html will be "Hello World!"</p>
-            <P>Try and write it using h1 tags</P>
-            <div id="first-condition" style="border: 1px solid">
-                <div>
-                    <div hidden style="background-color: green; width: 15px; height: 15px" id="check-box"></div>
-                </div>
-                <div>
-                   <p>write "Hello World!" using h1 tags</p> 
+        <div class="container container-row fill">
+            <div id="" style="overflow-y:scroll">
+                <h2>Welcome</h2>
+                <p>Here you will learn how to write your first code and run it, to see it working</p>
+                <p>Your first code in html will be "Hello World!"</p>
+                <P>Try and write it using h1 tags</P>
+                <div id="first-condition" style="background-color: wheat; border-bottom: solid; border-top: solid;">
+                    <div>
+                        <div hidden style="background-color: green;" id="check-box"></div>
+                    </div>
+                    <div>
+                        <p>Write "Hello World!" using h1 tags</p> 
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <div>
-                <textarea class="editor"></textarea>
+            <div class="fill">
+                <div>
+                    <textarea class="editor"></textarea>
+                </div>
+                <div>
+                    <iframe class="preview-area" id="terminal" src="" frameborder="0"></iframe>
+                    <button onclick="check()">CHECK</button>
+                </div> 
             </div>
-            <div>
-                <iframe id="terminal" src="" frameborder="0"></iframe>
-                <button onclick="check()">CHECK</button>
-            </div> 
         </div>
     </main>
 </body>
