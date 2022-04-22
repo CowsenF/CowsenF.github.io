@@ -27,10 +27,22 @@ function check() {
     clear(code)
 }
 
+currentTask = 1
+
 function clear(clearCondition) {
-    if (clearCondition == "<h1>Hello World!</h1>") {
-        document.getElementById("first-condition").style = "background-color: green; border-bottom: solid; border-top: solid;"
-    } else {
-        document.getElementById("first-condition").style = "background-color: red; border-bottom: solid; border-top: solid;"
+    if (currentTask == 1) {
+        if (clearCondition.includes("<h1>") && clearCondition.includes("Hello World!")) {
+            document.getElementById("first-condition").style = "background-color: green; border-bottom: solid; border-top: solid;"
+            document.getElementById("second-condition").style = "background-color: wheat; border-bottom: solid; border-top: solid;"
+            currentTask = 2
+        } else {
+            document.getElementById("first-condition").style = "background-color: red; border-bottom: solid; border-top: solid;"
+        }
+    } else if (currentTask == 2) {
+        if (clearCondition.includes("<h4>")) {
+            document.getElementById("second-condition").style = "background-color: green; border-bottom: solid; border-top: solid;"
+        } else {
+            document.getElementById("second-condition").style = "background-color: red; border-bottom: solid; border-top: solid;"
+        }
     }
 }
