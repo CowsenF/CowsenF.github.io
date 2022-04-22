@@ -24,19 +24,18 @@
       </nav>
 
     <main>
-        <div class="container">
-            <div>
-                <h2 class="border-bottom">Courses</h2>
-                <div class="directory">
-                    <ul>
-                      <li><a href="#javascript">JavaScript</a></li>
-                      <li><a href="#html">HTML</a></li>
-                      <li><a href="#css">CSS</a></li>
-                      <li><a href="#website">Website</a></li>
-                    </ul>
-                  </div>
+        <div class="container container-space-around">
+            <div class="small-fill">
+                <h1 class="border-bottom">Courses</h1>
+                <div class="directory container container-column">
+                    <a class="big-text" href="#javascript">JavaScript</a>
+                    <a class="big-text" href="#html">HTML</a>
+                    <a class="big-text" href="#css">CSS</a>
+                    <a class="big-text" href="#website">Website</a>
+                    
+                </div>
             </div>
-            <div>
+            <div class="fill">
                 <ul>
                     <div id="javascript">
                         <div>
@@ -84,7 +83,7 @@
                         </div>
                         <div>
                             <h2 onclick="divVisibility('div2.1')">First script</h2>
-                            <div id="div2.1" style="display: none;">
+                            <div class="box" id="div2.1" style="display: none;">
                                 <p>In this session you will learn how to write your very first and piece of code.</p>
                                 <a href="coding/code-html,1.html">Start</a>
                             </div>
