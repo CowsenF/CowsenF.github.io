@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="frontPageDesign.css">
+    <link rel="stylesheet" href="pageDesign.css">
     <script src="catalog.js"></script>
     <title>Front page</title>
 </head>
@@ -24,180 +24,182 @@
       </nav>
 
     <main>
-        <div>
-            <h2>Courses</h2>
-            <div class="directory">
+        <div class="container">
+            <div>
+                <h2 class="border-bottom">Courses</h2>
+                <div class="directory">
+                    <ul>
+                      <li><a href="#javascript">JavaScript</a></li>
+                      <li><a href="#html">HTML</a></li>
+                      <li><a href="#css">CSS</a></li>
+                      <li><a href="#website">Website</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div>
                 <ul>
-                  <li><a href="#javascript">JavaScript</a></li>
-                  <li><a href="#html">HTML</a></li>
-                  <li><a href="#css">CSS</a></li>
-                  <li><a href="#website">Website</a></li>
+                    <div id="javascript">
+                        <div>
+                            <h1 class="border-bottom-animation">JavaScript</h1>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div1.1')">Baby</h2>
+                            <div id="div1.1" style="display: none;">
+                                <p>Learn to code "HELLO WORLD!"</p>
+                                <a href="coding/code-js,1.html">Start Training</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div1.2')">Basic</h2>
+                            <div id="div1.2" style="display: none;">
+                                description text
+                                <a href="code.html">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div1.3')">Advanced</h2>
+                            <div id="div1.3" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div1.4')">Veteran</h2>
+                            <div id="div1.4" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div1.5')">Master</h2>
+                            <div id="div1.5" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="html">
+                        <div>
+                            <h1 class="border-bottom-animation">HTML</h1>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div2.1')">First script</h2>
+                            <div id="div2.1" style="display: none;">
+                                <p>In this session you will learn how to write your very first and piece of code.</p>
+                                <a href="coding/code-html,1.html">Start</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div2.2')">specific course</h2>
+                            <div id="div2.2" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div2.3')">Advanced</h2>
+                            <div id="div2.3" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div2.4')">Veteran</h2>
+                            <div id="div2.4" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div2.5')">Master</h2>
+                            <div id="div2.5" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="css">
+                        <div>
+                            <h1  class="border-bottom-animation">CSS</h1>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div3.1')">specific course</h2>
+                            <div id="div3.1" style="display: none;">
+                                <p>description text</p>
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div3.2')">specific course</h2>
+                            <div id="div3.2" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div3.3')">Advanced</h2>
+                            <div id="div3.3" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div3.4')">Veteran</h2>
+                            <div id="div3.4" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div3.5')">Master</h2>
+                            <div id="div3.5" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="website">
+                        <div>
+                            <h1 class="border-bottom-animation">Website</h1>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div4.1')">specific course</h2>
+                            <div id="div4.1" style="display: none;">
+                                <p>description text</p>
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div4.2')">specific course</h2>
+                            <div id="div4.2" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div4.3')">Advanced</h2>
+                            <div id="div4.3" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div4.4')">Veteran</h2>
+                            <div id="div4.4" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 onclick="divVisibility('div4.5')">Bloons Elite</h2>
+                            <div id="div4.5" style="display: none;">
+                                description text
+                                <a href="">link</a>
+                            </div>
+                        </div>
+                    </div>
                 </ul>
-              </div>
-        </div>
-        <div>
-            <ul>
-                <div id="javascript">
-                    <div>
-                        <h1>JavaScript</h1>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div1.1')">Baby</h2>
-                        <div id="div1.1" style="display: none;">
-                            <p>Learn to code "HELLO WORLD!"</p>
-                            <a href="coding/code-js,1.html">Start Training</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div1.2')">Basic</h2>
-                        <div id="div1.2" style="display: none;">
-                            description text
-                            <a href="code.html">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div1.3')">Advanced</h2>
-                        <div id="div1.3" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div1.4')">Veteran</h2>
-                        <div id="div1.4" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div1.5')">Master</h2>
-                        <div id="div1.5" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                </div>
-                <div id="html">
-                    <div>
-                        <h1>HTML</h1>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div2.1')">First script</h2>
-                        <div id="div2.1" style="display: none;">
-                            <p>In this session you will learn how to write your very first and piece of code.</p>
-                            <a href="coding/code-html,1.html">Start</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div2.2')">specific course</h2>
-                        <div id="div2.2" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div2.3')">Advanced</h2>
-                        <div id="div2.3" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div2.4')">Veteran</h2>
-                        <div id="div2.4" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div2.5')">Master</h2>
-                        <div id="div2.5" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                </div>
-                <div id="css">
-                    <div>
-                        <h1>CSS</h1>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div3.1')">specific course</h2>
-                        <div id="div3.1" style="display: none;">
-                            <p>description text</p>
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div3.2')">specific course</h2>
-                        <div id="div3.2" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div3.3')">Advanced</h2>
-                        <div id="div3.3" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div3.4')">Veteran</h2>
-                        <div id="div3.4" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div3.5')">Master</h2>
-                        <div id="div3.5" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                </div>
-                <div id="website">
-                    <div>
-                        <h1>Website</h1>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div4.1')">specific course</h2>
-                        <div id="div4.1" style="display: none;">
-                            <p>description text</p>
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div4.2')">specific course</h2>
-                        <div id="div4.2" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div4.3')">Advanced</h2>
-                        <div id="div4.3" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div4.4')">Veteran</h2>
-                        <div id="div4.4" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 onclick="divVisibility('div4.5')">Bloons Elite</h2>
-                        <div id="div4.5" style="display: none;">
-                            description text
-                            <a href="">link</a>
-                        </div>
-                    </div>
-                </div>
-            </ul>
+            </div>
         </div>
     </main>
 </body>
