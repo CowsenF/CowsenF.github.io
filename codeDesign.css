@@ -42,8 +42,14 @@ body {
 
 .fill {
 
-    height: 94%;
+    height: 84%;
     width: 100%;
+
+}
+
+.fixxedheight {
+
+    height: auto;
 
 }
 
