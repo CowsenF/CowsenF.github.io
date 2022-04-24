@@ -1,0 +1,17 @@
+body {
+    background-color: wheat;
+}
+
+.boxShadow {
+
+    transition: 0.3s;
+
+}
+
+.boxShadow:hover {
+
+    box-shadow: -20px 20px gray;
+
+}
+
+

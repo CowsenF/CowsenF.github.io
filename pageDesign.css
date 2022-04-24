@@ -5,6 +5,7 @@ body {
     height: 100%;
     margin: 0;
     font-family: system-ui, sans-serif;
+    background-color: wheat;
     
     /* this breaks position sticky in Firefox */
     /* overflow-x: hidden; */
@@ -12,7 +13,7 @@ body {
 
 main {
 
-    height: 87.8%;
+    height: auto;
     margin: 1rem;
 
 }
@@ -111,6 +112,13 @@ p {
 
 }
 
+.margin {
+
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
 .border-bottom {
 
     border-bottom: solid;
@@ -138,8 +146,10 @@ li {
 }
 
 footer {
-    display: flex;
-    flex: 1 0 40px;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
     background: #607D8B;
     padding: 1rem;
 }

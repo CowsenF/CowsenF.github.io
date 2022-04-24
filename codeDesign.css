@@ -3,6 +3,7 @@ html,
 body {
     height: 100%;
     margin: 0;
+    background-color: white;
 }
 
 ::-webkit-scrollbar {
@@ -66,6 +67,8 @@ body {
     flex-direction: row;
 
 }
+
+
 
 .fill {
 
